@@ -20,10 +20,9 @@ header img{
     margin-bottom: 20px;
 }
 
-main{
-    background-color: 
-
-}
+/* main{ */
+    /* background-color:  */
+/* } */
 main .items{
     display: flex;
     justify-content: space-around;
@@ -35,18 +34,18 @@ main .items{
 main .items:nth-child(even){
     flex-direction: row-reverse;
 }
-main .items{
+main .item{
     width: 500px;
 }
-main .items img{
+main .item img{
     width: 100%;
 }
-main .items h2{
+main .item h2{
     letter-spacing: 4px;
     font-size: 1em;
     margin-bottom: 20px;
 }
-main .items p{
+main .item p{
     letter-spacing: 2px;
     margin-bottom: 20px;
 }

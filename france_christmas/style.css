@@ -4,13 +4,14 @@
     grid-template-rows: auto 1fr auto;
 }
 .wrapper{
-    padding: 30px;
+    padding: 40px;
     width: 100%;
     margin: 0 auto;
     background-color: bisque;
 }
 header{
     text-align: center;
+    font-size: 2em;
 }
 
 header img{
@@ -35,8 +36,28 @@ main .items:nth-child(even){
     flex-direction: row-reverse;
 }
 mai .items{
-    width: 500px;
+    width: 100%;
 }
 main .items img{
-    width: 80%;
+    width: 30%;
 }
+main .items h2{
+    letter-spacing: 4px;
+    font-size: 1em;
+    margin-bottom: 20px;
+}
+main .items p{
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+main .items a{
+    color: blueviolet;
+    text-decoration: none;
+    letter-spacing: 2px;
+}
+main .items a::after{
+    content: ">";
+    padding-left: 10px;
+}
+
+

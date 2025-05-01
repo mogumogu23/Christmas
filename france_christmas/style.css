@@ -35,11 +35,11 @@ main .items{
 main .items:nth-child(even){
     flex-direction: row-reverse;
 }
-mai .items{
-    width: 100%;
+main .items{
+    width: 500px;
 }
 main .items img{
-    width: 30%;
+    width: 100%;
 }
 main .items h2{
     letter-spacing: 4px;
